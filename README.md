@@ -3,19 +3,19 @@
 ## Getting started
 Run this command:
 ```sh
-./setup.sh
+make setup
 ```
 
 ## Running the server
 Run this command:
 ```sh
-docker-compose up -d --remove-orphans
+make start
 ```
 
 ## Stopping the server
 Run this command:
 ```sh
-docker-compose down
+make stop
 ```
 
 ## Adding packages
