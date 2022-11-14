@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   pypi:
-    image: docker.io/pypiserver/pypiserver:latest
+    image: docker.io/pypiserver/pypiserver:v1.5.1
     environment:
       - PYTHONUNBUFFERED=1
     ports:
