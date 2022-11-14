@@ -6,7 +6,7 @@ services:
     environment:
       - PYTHONUNBUFFERED=1
     ports:
-      - "8000:8000"
+      - "8000:8080"
     volumes:
       - ./authfile:/data/.htpasswd
       - ./packages:/data/packages
